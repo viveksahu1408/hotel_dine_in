@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="4dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+              android:id="@+id/imgRecycle"
+            />
+
+        <TextView
+            android:id="@+id/textViewRestaurantName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Restaurant Name"
+            android:textSize="22sp"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/foodtype"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Food Type"
+            android:textSize="15sp"
+            android:textColor="#15E415"
+            android:textStyle="bold"/>
+
+
+        <TextView
+            android:id="@+id/restaurantEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email"
+
+            android:textSize="16sp"
+            android:layout_marginTop="5dp"
+            android:textColor="#214EC5"/>
+        <TextView
+            android:id="@+id/restaurantPhone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Location"
+            android:layout_marginTop="5dp"
+            android:textSize="16sp"
+            android:textColor="#EB883C"/>
+        <TextView
+            android:id="@+id/restaurantPrice1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Location"
+            android:layout_marginTop="5dp"
+            android:textSize="16sp"
+            android:textColor="@color/black"/>
+        <TextView
+            android:id="@+id/restaurantOpenTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Location"
+            android:layout_marginTop="5dp"
+            android:textSize="16sp"
+            android:textColor="#091C87"/>
+
+        <TextView
+            android:id="@+id/restaurantCloseTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Location"
+            android:layout_marginTop="5dp"
+            android:textSize="16sp"
+            android:textColor="#091C87"/>
+
+        <TextView
+            android:id="@+id/restaurantStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Location"
+            android:layout_marginTop="5dp"
+            android:textSize="16sp"
+            android:textColor="#920CCA"/>
+
+        <TextView
+            android:id="@+id/restaurantDescription1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Location"
+            android:layout_marginTop="5dp"
+            android:textSize="16sp"
+            android:textColor="@color/black"/>
+ <TextView
+            android:id="@+id/restaurantRating1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Location"
+            android:layout_marginTop="5dp"
+            android:textSize="16sp"
+            android:textColor="#DEB329"/>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

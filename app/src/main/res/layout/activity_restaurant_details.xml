@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".RestaurantDetailsActivity">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="600dp"
+            android:orientation="vertical"
+
+                >
+
+
+
+        <TextView
+            android:id="@+id/restaurantName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Restaurant Name"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:textSize="25sp"
+            android:textStyle="bold"/>
+
+        <ImageView
+            android:id="@+id/restaurantImage"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/img"
+            />
+
+        <TextView
+            android:id="@+id/restaurantPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Price: ₹0"/>
+
+        <TextView
+            android:id="@+id/restaurantTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Timing: 00:00 - 00:00"/>
+
+        <TextView
+            android:id="@+id/restaurantRating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="⭐ 0.0"/>
+
+        <TextView
+            android:id="@+id/restaurantDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Description: No Data Available"/>
+
+        <TextView
+            android:id="@+id/restaurantCategories"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Categories: N/A"/>
+
+
+
+        </LinearLayout>
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/bookBtn"
+            android:text="  BOOK NOW  "
+            android:layout_gravity="center"
+            android:textSize="20sp"
+            android:padding="10dp"
+            app:cornerRadius="10dp"
+            android:layout_marginTop="20dp"
+            android:elevation="20dp"
+            android:backgroundTint="@color/black"
+                />
+
+
+
+</LinearLayout>

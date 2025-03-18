@@ -1,0 +1,44 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="16dp"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/etNumberOfGuests"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:hint="Number of Guests"
+        android:inputType="number"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/etSpecialRequest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="Special Request (Optional)"
+        android:minHeight="48dp" />
+
+
+
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnConfirmBooking"
+        android:text="  CONFIRM  BOOK   "
+        android:layout_gravity="center"
+        android:textSize="15sp"
+        android:padding="10dp"
+        app:cornerRadius="10dp"
+        android:layout_marginTop="20dp"
+        android:elevation="20dp"
+        android:backgroundTint="@color/black"
+        />
+
+
+
+</LinearLayout>
