@@ -39,21 +39,21 @@ data class available_slots(
 
 data class BookingResponse(
 	@SerializedName("status") val status: String,
-	@SerializedName("data") val bookings: List<Booking>?
+	@SerializedName("message") val message: String,
+	@SerializedName("user_booking_details") val bookings: List<Booking>?
 )
 
+
 data class Booking(
-	@SerializedName("booking_id") val bookingId: String,
-	@SerializedName("restaurant_id") val restaurantId: String,
 	@SerializedName("restaurant_name") val restaurantName: String,
-	@SerializedName("user_id") val userId: String,
-	@SerializedName("table_id") val tableId: String,
 	@SerializedName("booking_date") val bookingDate: String,
-	@SerializedName("booking_time") val bookingTime: String,
-	@SerializedName("status") val status: String,
-	@SerializedName("total_amount") val totalAmount: String,
-	@SerializedName("payment_status") val paymentStatus: String,
-	@SerializedName("created_at") val createdAt: String
+	@SerializedName("meal_type") val mealType: String,
+	@SerializedName("slot_start_time") val slotStartTime: String,
+	@SerializedName("slot_end_time") val slotEndTime: String,
+	@SerializedName("number_of_guest") val numberOfGuest: Int,
+	@SerializedName("booking_status") val bookingStatus: String,
+	@SerializedName("special_request") val specialRequest: String?
 )
+
 
 

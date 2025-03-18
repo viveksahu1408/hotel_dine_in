@@ -203,11 +203,18 @@ interface ApiService {
         @Query("food_id") foodId: String?
     ): Single<RestaurantFCResponse>
 
-    @Multipart
-    @POST("booking_details.php") // API endpoint
+//    @Multipart
+//    @POST("booking_details.php")
+//    fun getUserBookings(
+//        @Part hotelDineIn: MultipartBody.Part,  // ✅ Correct
+//        @Part userId: String  // ✅ Correct
+//    ): Single<BookingResponse>
+
+    @FormUrlEncoded
+    @POST("booking_details.php")
     fun getUserBookings(
-        @Part("hotel_dine_in") hotelDineIn: MultipartBody.Part,
-        @Part("user_id") userId: MultipartBody.Part
+        @Field("hotel_dine_in") hotelDineIn: String,
+        @Field("user_id") userId: String
     ): Single<BookingResponse>
 
 
