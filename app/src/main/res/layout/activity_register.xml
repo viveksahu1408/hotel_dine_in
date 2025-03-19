@@ -16,7 +16,6 @@
         android:layout_marginLeft="40dp"
         android:layout_marginRight="40dp"
         android:layout_marginTop="80dp"
-
         android:padding="20dp"
         android:background="@drawable/rounded_bg"
         android:orientation="vertical"
@@ -32,12 +31,13 @@
             android:padding="10dp"
             app:tint="#1E90FF" />
 
-        <!-- First Name Input -->
+
         <EditText
             android:id="@+id/etFirstName"
             android:layout_marginTop="20dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            style="@style/EditTextStyle"
             android:hint="First Name"
 
             android:padding="10dp"
@@ -46,12 +46,13 @@
             android:textColorHint="#B0B0B0"
             android:minHeight="48dp"/>
 
-        <!-- Middle Name Input -->
+
         <EditText
             android:id="@+id/etMiddleName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Middle Name"
+            style="@style/EditTextStyle"
             android:layout_marginTop="10dp"
             android:padding="10dp"
             android:background="@drawable/input_bg"
@@ -59,42 +60,41 @@
             android:textColorHint="#B0B0B0"
             android:minHeight="48dp"/>
 
-        <!-- Last Name Input -->
         <EditText
             android:id="@+id/etLastName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Last Name"
             android:layout_marginTop="10dp"
-
+            style="@style/EditTextStyle"
             android:padding="10dp"
             android:background="@drawable/input_bg"
             android:textColor="#070707"
             android:textColorHint="#B0B0B0"
             android:minHeight="48dp"/>
 
-        <!-- Email Input -->
+
         <EditText
             android:id="@+id/etEmail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Email"
             android:layout_marginTop="10dp"
-
+            style="@style/EditTextStyle"
             android:padding="10dp"
             android:background="@drawable/input_bg"
             android:textColor="#090909"
             android:textColorHint="#B0B0B0"
             android:minHeight="48dp"/>
 
-        <!-- Phone Input -->
+
         <EditText
             android:id="@+id/etPhone"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Phone Number"
             android:layout_marginTop="10dp"
-
+            style="@style/EditTextStyle"
             android:padding="10dp"
             android:background="@drawable/input_bg"
             android:textColor="#0F0E0E"
@@ -107,7 +107,7 @@
             android:layout_height="wrap_content"
             android:hint="Address"
             android:layout_marginTop="10dp"
-
+            style="@style/EditTextStyle"
             android:padding="10dp"
             android:background="@drawable/input_bg"
             android:textColor="#0B0B0B"
@@ -121,7 +121,7 @@
             android:layout_height="wrap_content"
             android:hint="Gender"
             android:layout_marginTop="10dp"
-
+            style="@style/EditTextStyle"
             android:padding="10dp"
             android:background="@drawable/input_bg"
             android:textColor="#1B1A1A"
@@ -137,24 +137,24 @@
             android:drawableStart="@drawable/ic_lock"
             android:padding="10dp"
             android:layout_marginTop="10dp"
-
+            style="@style/EditTextStyle"
             android:background="@drawable/input_bg"
             android:textColor="#101010"
             android:textColorHint="#B0B0B0"
             android:inputType="textPassword"
             android:minHeight="48dp"/>
 
-        <!-- Register Button -->
+
         <Button
             android:id="@+id/btnRegister"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Register"
             android:textAllCaps="false"
-            android:background="@drawable/button_bg"
             android:textColor="#FFFFFF"
             android:padding="12dp"
-            android:backgroundTint="#1E90FF"
+            style="@style/EditTextStyle"
+            android:backgroundTint="#1E88E5"
             android:layout_marginTop="20dp"/>
 
     </LinearLayout>
