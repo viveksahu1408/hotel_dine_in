@@ -33,8 +33,8 @@ class BookingAdapter(private var bookingList: MutableList<Booking>) :
         holder.bookingDate.text = "Date: ${booking.bookingDate}"
         holder.bookingTime.text = "Time: ${booking.slotStartTime}"
         holder.status.text = "Status: ${booking.bookingStatus}"
-        holder.amount.text = "Amount: ₹${booking.numberOfGuest}"
-        holder.paymentStatus.text = "Payment: ${booking.specialRequest}"
+        holder.amount.text = "Number of guest: ${booking.numberOfGuest}"
+        holder.paymentStatus.text = " ${booking.specialRequest}"
     }
 
     override fun getItemCount() = bookingList.size

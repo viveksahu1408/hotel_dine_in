@@ -30,7 +30,7 @@
                 android:layout_width="35dp"
                 android:layout_height="35dp"
                 android:layout_marginStart="10dp"
-                android:src="@drawable/img_3"
+                android:src="@drawable/con_menu"
                 android:background="@android:color/transparent"
                 android:contentDescription="Menu Icon"/>
 
@@ -51,7 +51,7 @@
                 android:layout_width="35dp"
                 android:layout_height="35dp"
                 android:layout_marginStart="30dp"
-                android:src="@drawable/img_4"
+                android:src="@drawable/reshot_icon_profile_qx6kdsljc5"
                 android:background="@android:color/transparent"
                 android:contentDescription="Profile Icon"/>
         </LinearLayout>
@@ -91,7 +91,7 @@
             </LinearLayout>
         </HorizontalScrollView>
 
-        <!-- Progress Bar (Initially Hidden) -->
+
         <ProgressBar
             android:id="@+id/progressBar"
             android:layout_width="wrap_content"

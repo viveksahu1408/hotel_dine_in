@@ -17,6 +17,7 @@ import android.widget.ProgressBar
 import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.practiceapp.R
@@ -50,7 +51,8 @@ class BookingActivity : AppCompatActivity() {
         progressBar = findViewById(R.id.progressBar)
         slotRecyclerView = findViewById(R.id.slotRecyclerView)
 
-        slotRecyclerView.layoutManager = LinearLayoutManager(this)
+       // slotRecyclerView.layoutManager = LinearLayoutManager(this,)
+        slotRecyclerView.layoutManager = GridLayoutManager(this, 2)
 
         restaurantId = intent.getStringExtra("restaurant_id")
 
