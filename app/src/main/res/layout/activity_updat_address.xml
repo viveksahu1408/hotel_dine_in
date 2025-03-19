@@ -6,6 +6,7 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/gradient2_bg"
     tools:context=".AddAddressActivity">
 
     <androidx.cardview.widget.CardView
@@ -97,7 +98,6 @@
             android:minHeight="48dp"
             android:padding="10dp" />
 
-        <!-- City -->
         <EditText
             android:id="@+id/etCityId"
             android:layout_width="match_parent"
@@ -107,7 +107,6 @@
             android:minHeight="48dp"
             android:padding="10dp" />
 
-        <!-- Flat Name -->
         <EditText
             android:id="@+id/etFlatName"
             android:layout_width="match_parent"
@@ -117,7 +116,7 @@
             android:minHeight="48dp"
             android:padding="10dp" />
 
-        <!-- Landmark -->
+
         <EditText
             android:id="@+id/etLandmark"
             android:layout_width="match_parent"
@@ -127,13 +126,13 @@
             android:minHeight="48dp"
             android:padding="10dp" />
 
-        <!-- Update Address Button -->
+
         <Button
             android:id="@+id/btnSubmit"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Add Address"
-            android:backgroundTint="@color/black"
+            android:backgroundTint="@color/blue_70"
             android:textColor="@android:color/white"
             android:padding="12dp"
             android:layout_marginTop="16dp" />
