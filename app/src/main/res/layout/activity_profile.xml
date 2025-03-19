@@ -5,6 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".ProfileActivity"
+    android:background="@drawable/gradient2_bg"
     android:fillViewport="true">
 
     <androidx.cardview.widget.CardView
@@ -12,7 +13,7 @@
         android:layout_height="wrap_content"
         android:elevation="40dp"
         android:layout_gravity="center"
-        android:layout_marginLeft="40dp"
+        android:layout_marginLeft="20dp"
         android:layout_marginTop="0dp"
         app:cardCornerRadius="20dp"
         >
@@ -41,6 +42,7 @@
                 android:layout_marginTop="30dp"
                 android:paddingTop="10dp"
                 android:text="Full Name"
+
                 android:textSize="25sp"
               android:textColor="#C15A7C"
                 android:textStyle="bold" />
@@ -52,8 +54,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
                 android:paddingTop="5dp"
+                style="@style/EditTextStyle"
                 android:text="Email"
-
                 android:textSize="20sp" />
 
             <!-- Phone Number -->
@@ -63,6 +65,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
                 android:paddingTop="5dp"
+                style="@style/EditTextStyle"
                 android:text="Phone Number"
 
                 android:textSize="20sp" />
@@ -75,6 +78,7 @@
                 android:layout_marginTop="5dp"
                 android:paddingTop="5dp"
                 android:text="Gender"
+                style="@style/EditTextStyle"
 
                 android:textSize="20sp" />
 
@@ -88,6 +92,7 @@
                 android:textSize="20sp"
                 android:textColor="#1A56BA"
                 android:layout_marginTop="10dp"
+                style="@style/EditTextStyle"
                 android:layout_marginBottom="8dp"/>
 
 
@@ -99,7 +104,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginTop="30dp"
-                android:backgroundTint="@color/black"
+                android:fontFamily="sans-serif-medium"
                 android:text="Edit Profile"
                 android:textSize="15dp"
                 android:textColor="@android:color/white" />
@@ -110,7 +115,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginTop="10dp"
-                android:backgroundTint="@color/black"
+                android:fontFamily="sans-serif-medium"
                 android:text="Logout"
                 android:textSize="15dp" />
 
