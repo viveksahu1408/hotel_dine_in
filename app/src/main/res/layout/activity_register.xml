@@ -42,7 +42,7 @@
 
             android:padding="10dp"
             android:background="@drawable/input_bg"
-            android:textColor="#FFFFFF"
+            android:textColor="#070707"
             android:textColorHint="#B0B0B0"
             android:minHeight="48dp"/>
 
@@ -55,7 +55,7 @@
             android:layout_marginTop="10dp"
             android:padding="10dp"
             android:background="@drawable/input_bg"
-            android:textColor="#FFFFFF"
+            android:textColor="#050505"
             android:textColorHint="#B0B0B0"
             android:minHeight="48dp"/>
 
@@ -69,7 +69,7 @@
 
             android:padding="10dp"
             android:background="@drawable/input_bg"
-            android:textColor="#FFFFFF"
+            android:textColor="#070707"
             android:textColorHint="#B0B0B0"
             android:minHeight="48dp"/>
 
@@ -83,7 +83,7 @@
 
             android:padding="10dp"
             android:background="@drawable/input_bg"
-            android:textColor="#FFFFFF"
+            android:textColor="#090909"
             android:textColorHint="#B0B0B0"
             android:minHeight="48dp"/>
 
@@ -97,7 +97,7 @@
 
             android:padding="10dp"
             android:background="@drawable/input_bg"
-            android:textColor="#FFFFFF"
+            android:textColor="#0F0E0E"
             android:textColorHint="#B0B0B0"
             android:minHeight="48dp"/>
 
@@ -110,7 +110,7 @@
 
             android:padding="10dp"
             android:background="@drawable/input_bg"
-            android:textColor="#FFFFFF"
+            android:textColor="#0B0B0B"
             android:textColorHint="#B0B0B0"
             android:minHeight="48dp"/>
 
@@ -124,7 +124,7 @@
 
             android:padding="10dp"
             android:background="@drawable/input_bg"
-            android:textColor="#FFFFFF"
+            android:textColor="#1B1A1A"
             android:textColorHint="#B0B0B0"
             android:minHeight="48dp"/>
 
@@ -139,7 +139,7 @@
             android:layout_marginTop="10dp"
 
             android:background="@drawable/input_bg"
-            android:textColor="#FFFFFF"
+            android:textColor="#101010"
             android:textColorHint="#B0B0B0"
             android:inputType="textPassword"
             android:minHeight="48dp"/>
