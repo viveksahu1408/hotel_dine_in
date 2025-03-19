@@ -12,7 +12,6 @@
 
     <TextView
         android:id="@+id/slotTime"
-
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="10:00 AM - 11:00 AM"
