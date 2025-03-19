@@ -34,7 +34,7 @@
             android:name=".NotificationActivity"
             android:exported="false" />
         <activity
-            android:name=".UpdateProfileActivity"
+            android:name=".LoginActivity"
             android:exported="false" />
         <activity
             android:name=".AllResturentActivity"
@@ -58,7 +58,7 @@
             android:name=".MainActivity"
             android:exported="false" />
         <activity
-            android:name=".LoginActivity"
+            android:name=".UpdateProfileActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
