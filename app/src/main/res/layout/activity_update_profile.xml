@@ -123,7 +123,7 @@
         android:layout_height="wrap_content"
         android:text="Update Profile"
         android:textColor="@android:color/white"
-        android:background="@drawable/btn_bg"
+        android:backgroundTint="#1E87E4"
         android:layout_margin="16dp"
         android:padding="12dp"
         android:textSize="16sp"

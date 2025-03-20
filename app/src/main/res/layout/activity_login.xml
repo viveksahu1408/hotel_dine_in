@@ -10,7 +10,7 @@
 
 
 
-    <!-- Transparent Card View -->
+
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -34,7 +34,7 @@
             android:src="@drawable/ic_camera"
             app:tint="#1E90FF" />
 
-        <!-- Email Input -->
+
         <EditText
             android:id="@+id/etEmail"
             android:layout_width="match_parent"
@@ -48,7 +48,6 @@
             android:textColor="#FFFFFF"
             android:textColorHint="#EFB0B0B0" />
 
-        <!-- Password Input -->
         <EditText
             android:id="@+id/etPassword"
             android:layout_width="match_parent"
@@ -63,7 +62,7 @@
             android:textColor="#FFFFFF"
             android:textColorHint="#B0B0B0" />
 
-        <!-- Remember Me and Forgot Password -->
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -87,7 +86,7 @@
                 android:textColor="#1E90FF" />
         </LinearLayout>
 
-        <!-- Login Button -->
+
         <Button
             android:id="@+id/btnLogin"
             android:layout_width="match_parent"
@@ -99,7 +98,7 @@
             android:textAllCaps="false"
             android:textColor="#FFFFFF" />
 
-        <!-- Register Button -->
+
         <Button
             android:id="@+id/btnRegister"
             android:layout_width="match_parent"

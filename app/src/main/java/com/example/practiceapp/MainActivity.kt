@@ -32,7 +32,7 @@ class MainActivity : AppCompatActivity() {
     private lateinit var foodCategoryRecyclerView: RecyclerView
     private lateinit var foodCategoryAdapter: FoodCategoryAdapter
 
-    private lateinit var drawerLayout: DrawerLayout
+    private lateinit var drawerLayout: DrawerLayout  
     private lateinit var navigationView: NavigationView
 
     private lateinit var sessionManager: SessionManager

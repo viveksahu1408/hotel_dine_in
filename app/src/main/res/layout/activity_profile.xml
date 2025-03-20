@@ -8,6 +8,8 @@
     android:background="@drawable/gradient2_bg"
     android:fillViewport="true">
 
+
+
     <androidx.cardview.widget.CardView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -107,7 +109,8 @@
                 android:fontFamily="sans-serif-medium"
                 android:text="Edit Profile"
                 android:textSize="15dp"
-                android:textColor="@android:color/white" />
+                android:backgroundTint="#1E87E4"
+                android:textColor="@color/white" />
 
             <Button
                 android:id="@+id/logoutBtn"
@@ -116,6 +119,7 @@
                 android:layout_gravity="center"
                 android:layout_marginTop="10dp"
                 android:fontFamily="sans-serif-medium"
+                android:backgroundTint="#1E87E4"
                 android:text="Logout"
                 android:textSize="15dp" />
 

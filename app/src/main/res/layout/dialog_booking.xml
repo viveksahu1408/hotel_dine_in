@@ -6,7 +6,7 @@
     android:background="@drawable/gradient2_bg"
     android:orientation="vertical">
 
-    <!-- CardView for Number of Guests -->
+
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

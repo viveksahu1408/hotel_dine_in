@@ -8,7 +8,7 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <!-- Main Content -->
+
     <LinearLayout
         android:id="@+id/main"
         android:layout_width="match_parent"
@@ -16,7 +16,6 @@
         android:orientation="vertical"
         android:background="@android:color/white">
 
-        <!-- Toolbar with Menu and Profile Icon -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -24,7 +23,7 @@
             android:layout_marginTop="20dp"
             android:padding="10dp">
 
-            <!-- Menu Button -->
+
             <ImageView
                 android:id="@+id/menu"
                 android:layout_width="35dp"
@@ -34,7 +33,7 @@
                 android:background="@android:color/transparent"
                 android:contentDescription="Menu Icon"/>
 
-            <!-- Title -->
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -45,7 +44,7 @@
                 android:layout_marginTop="1dp"
                 android:layout_marginStart="30dp"/>
 
-            <!-- Profile Icon (Align to Right) -->
+
             <ImageView
                 android:id="@+id/profileIcon"
                 android:layout_width="35dp"
@@ -56,7 +55,7 @@
                 android:contentDescription="Profile Icon"/>
         </LinearLayout>
 
-        <!-- Horizontal ScrollView for Images -->
+
         <HorizontalScrollView
             android:id="@+id/imageScrollView"
             android:layout_width="match_parent"
@@ -99,14 +98,14 @@
             android:layout_gravity="center"
             android:visibility="gone"/>
 
-        <!-- RecyclerView for Hotels -->
+
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/hotelRecyclerView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"/>
 
-        <!-- RecyclerView for Food Categories -->
+
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/foodCategoryRecyclerView"
             android:layout_width="match_parent"
@@ -114,7 +113,7 @@
             android:layout_marginTop="20dp"/>
     </LinearLayout>
 
-    <!-- Navigation Drawer Menu -->
+<!--    Navigation Drawer Menu -->
     <com.google.android.material.navigation.NavigationView
         android:id="@+id/navigation_view"
         android:layout_width="wrap_content"

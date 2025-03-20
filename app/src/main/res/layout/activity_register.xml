@@ -21,7 +21,7 @@
         android:orientation="vertical"
         android:gravity="center">
 
-        <!-- Profile Icon -->
+
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -114,7 +114,7 @@
             android:textColorHint="#B0B0B0"
             android:minHeight="48dp"/>
 
-        <!-- Gender Input -->
+
         <EditText
             android:id="@+id/etGender"
             android:layout_width="match_parent"
@@ -128,7 +128,7 @@
             android:textColorHint="#B0B0B0"
             android:minHeight="48dp"/>
 
-        <!-- Password Input -->
+
         <EditText
             android:id="@+id/etPassword"
             android:layout_width="match_parent"
@@ -154,7 +154,7 @@
             android:textColor="#FFFFFF"
             android:padding="12dp"
             style="@style/EditTextStyle"
-            android:backgroundTint="#1E88E5"
+            android:backgroundTint="#1E87E4"
             android:layout_marginTop="20dp"/>
 
     </LinearLayout>
