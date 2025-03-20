@@ -145,7 +145,7 @@
             android:minHeight="48dp"/>
 
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/btnRegister"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -153,7 +153,6 @@
             android:textAllCaps="false"
             android:textColor="#FFFFFF"
             android:padding="12dp"
-            style="@style/EditTextStyle"
             android:backgroundTint="#1E87E4"
             android:layout_marginTop="20dp"/>
 

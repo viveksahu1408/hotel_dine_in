@@ -52,23 +52,6 @@
             />
 
 
-<!--        <TextView-->
-<!--            android:id="@+id/restaurantEmail"-->
-<!--            android:layout_width="wrap_content"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:text="Email"-->
-
-<!--            android:textSize="16sp"-->
-<!--            android:layout_marginTop="5dp"-->
-<!--            android:textColor="#214EC5"/>-->
-
-<!--        <TextView-->
-<!--            android:id="@+id/restaurantPhone"-->
-<!--            android:layout_width="wrap_content"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:text="Location"-->
-<!--            android:layout_marginTop="5dp"-->
-<!--            android:textSize="16sp"-->
 <!--            android:textColor="#EB883C"/>-->
         <TextView
             android:id="@+id/restaurantPrice1"

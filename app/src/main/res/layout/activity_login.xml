@@ -45,7 +45,7 @@
             android:hint="Enter Email"
             android:minHeight="48dp"
             android:padding="10dp"
-            android:textColor="#FFFFFF"
+            android:textColor="@color/black"
             android:textColorHint="#EFB0B0B0" />
 
         <EditText
@@ -59,7 +59,7 @@
             android:inputType="textPassword"
             android:minHeight="48dp"
             android:padding="10dp"
-            android:textColor="#FFFFFF"
+            android:textColor="@color/black"
             android:textColorHint="#B0B0B0" />
 
 
