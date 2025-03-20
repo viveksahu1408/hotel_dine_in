@@ -84,7 +84,8 @@ class MainActivity : AppCompatActivity() {
                     Toast.makeText(this, " Add address ", Toast.LENGTH_SHORT).show()
                 }
                 R.id.nav_ratinHistory -> {
-                    Toast.makeText(this, "Profile Clicked", Toast.LENGTH_SHORT).show()
+                    startActivity(Intent(this,BookingHistoryActivity::class.java))
+                    Toast.makeText(this, "Booking History", Toast.LENGTH_SHORT).show()
                 }
                 R.id.nav_logout -> {
                     sessionManager.logoutUser()
@@ -97,7 +98,7 @@ class MainActivity : AppCompatActivity() {
                 }
 
                 R.id.nav_change_pass -> {
-                    startActivity(Intent(this,BookingHistoryActivity::class.java))
+
                     Toast.makeText(this, "Change password ", Toast.LENGTH_SHORT).show()
                 }
                 R.id.nav_notification -> {
